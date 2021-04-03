@@ -3,6 +3,7 @@ const fs = require('fs');
 const requestHandler = (request , response)=>{
     response.setHeader('Content-Type','text/html');
     const url = request.url ;
+    console.log('hello iskander 1')
     const method = request.method ;
     if (url === '/'){
         response.write(
